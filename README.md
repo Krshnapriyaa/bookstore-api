@@ -1,11 +1,11 @@
-# 📚 RESTful Bookstore API
+#  RESTful Bookstore API
 
 A simple REST API built using **Spring Boot** for managing **Books** and **Authors**, demonstrating CRUD operations, pagination, filtering, sorting, and API documentation with Swagger.  
 This project uses an **in-memory H2 Database** for easy setup and testing.
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 
 | Tool | Purpose |
 |------|----------|
@@ -19,9 +19,9 @@ This project uses an **in-memory H2 Database** for easy setup and testing.
 
 ---
 
-## ⚙️ Project Setup
+##  Project Setup
 
-### 1️⃣ Create the Project
+###  Create the Project
 Generate a Spring Boot application from [Spring Initializr](https://start.spring.io/) with the following dependencies:
 - Spring Web  
 - Spring Data JPA  
@@ -32,7 +32,7 @@ Generate a Spring Boot application from [Spring Initializr](https://start.spring
 
 ---
 
-### 2️⃣ Project Structure
+###  Project Structure
 
 ```
 bookstore/
@@ -55,7 +55,7 @@ bookstore/
 
 ---
 
-## 🚀 Run the Application
+##  Run the Application
 
 ### Using Maven
 ```bash
@@ -64,23 +64,23 @@ mvn spring-boot:run
 ```
 
 Once started, the application runs at:  
-👉 [http://localhost:8080](http://localhost:8080)
+ [http://localhost:8080](http://localhost:8080)
 
 ---
 
-## 🧪 API Documentation (Swagger)
+##  API Documentation (Swagger)
 
 Access the interactive Swagger UI at:  
-👉 [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+ [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
 ![Swagger UI Overview](./Screenshot%202025-10-21%20173845.png)
 
 ---
 
-## 🧱 Database Console (H2)
+##  Database Console (H2)
 
 You can view live data using the **H2 Console**:  
-👉 [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
+ [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
 
 | Field | Value |
 |--------|--------|
@@ -90,7 +90,7 @@ You can view live data using the **H2 Console**:
 
 ---
 
-# 🧾 Execution Steps & Screenshots
+#  Execution Steps & Screenshots
 
 | Step | Command / Action | Expected Result | Screenshot |
 |------|------------------|------------------|-------------|
@@ -103,9 +103,9 @@ You can view live data using the **H2 Console**:
 
 ---
 
-## 📗 Sample API Requests
+##  Sample API Requests
 
-### ➕ Add Author
+###  Add Author
 ```json
 {
   "name": "Robert Martin",
@@ -113,7 +113,7 @@ You can view live data using the **H2 Console**:
 }
 ```
 
-### ➕ Add Book
+###  Add Book
 ```json
 {
   "title": "Clean Code",
@@ -126,14 +126,14 @@ You can view live data using the **H2 Console**:
 }
 ```
 
-### 🔍 View Books
+###  View Books
 ```bash
 GET /books
 ```
 
 ---
 
-## 🧠 Future Improvements
+##  Future Improvements
 - Add DTOs and Validation  
 - Include Exception Handling (Global Error Handler)  
 - Implement MySQL Database for Persistence  
@@ -150,15 +150,4 @@ GET /books
 
 ---
 
-✅ **Instructions:**
-- Place this `README.md` inside your project root folder.
-- Keep the screenshots with the same file names:
-  ```
-  Screenshot 2025-10-21 173823.png
-  Screenshot 2025-10-21 173845.png
-  Screenshot 2025-10-21 174048.png
-  Screenshot 2025-10-21 174141.png
-  Screenshot 2025-10-21 174235.png
-  Screenshot 2025-10-21 174251.png
-  Screenshot 2025-10-21 174347.png
-  ```
+
