@@ -141,13 +141,4 @@ GET /books
 
 ---
 
-## 👩‍💻 Author
-**Krishna Priya K P**  
-🎓 MCA Student | ☕ Java Backend Developer | 🛡️ Cybersecurity Enthusiast  
-
-📧 [krishnapriyakp@email.com](mailto:krishnapriyakp@email.com)  
-🌐 [GitHub Profile](https://github.com/Krshnapriyaa)
-
----
-
 
